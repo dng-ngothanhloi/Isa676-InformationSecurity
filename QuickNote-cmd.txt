@@ -1,0 +1,16 @@
+1/ Key 
+	ssh-keygen -t ed25519 -C "loint@bap.jp"
+	ssh-keygen -t ed25519 -C "loiduychau22@gmail.com"
+	ssh-keygen -t ed25519 -C "dng-ngothanhloi@e-university.edu.vn"
+	eval "$(ssh-agent -s)"
+	ssh-add ~/.ssh/dng-ntl-github
+
+	# gitlab-new.bap.jp
+	Host gitlab-new.bap.jp
+  		HostName gitlab-new.bap.jp
+  		User git
+  		IdentityFile ~/.ssh/bap-loint-git
+2/Docker
+  - Run Kali Linux: docker run -it kalilinux/kali-rolling /bin/bash
+  -Kiểm tra docker run: docker ps (hoặc docker ps -a)
+  -Stop docker stop <container_id_or_name>

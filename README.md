@@ -1,1 +1,2 @@
-# Ssa676-InformationSecurity
+# CSA676-InformationSecurity
+MacOS clean-up enviroment
